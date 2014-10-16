@@ -1,0 +1,36 @@
+{
+  "name": "haskell-online-backend",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "archiver": "^0.11.0",
+    "bluebird": "^2.3.5",
+    "body-parser": "^1.9.0",
+    "express": "^4.9.7",
+    "figs": "^0.1.4",
+    "jjv": "^1.0.2",
+    "json-schema": "^0.2.2",
+    "multiline": "^1.0.1",
+    "request": "^2.45.0",
+    "tap": "^0.4.13",
+    "tar-stream": "^1.0.0",
+    "tmp": "^0.0.24"
+  },
+  "devDependencies": {
+    "tap": "^0.4.13"
+  },
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sindresorhus/multiline.git"
+  },
+  "author": "Ryan Munro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/multiline/issues"
+  },
+  "homepage": "https://github.com/sindresorhus/multiline"
+}
